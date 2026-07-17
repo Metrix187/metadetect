@@ -1,0 +1,13 @@
+# nothing to build here, but keep the usual junk out
+.DS_Store
+Thumbs.db
+*.log
+node_modules/
+.vscode/
+.idea/
+.claude/
+
+# esp32 build artifacts if you use arduino-cli / platformio
+esp32/**/build/
+esp32/**/.pio/
+*.bin
